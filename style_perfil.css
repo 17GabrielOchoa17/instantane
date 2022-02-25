@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fafafa;
+  height: auto;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: solid #dbdbdb 1px;
+  background: #fff;
+}
+.ig {
+  left: 100%;
+}
+.nav-cont {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.cont-input {
+  border: 0;
+  outline: none;
+  background: #fafafa;
+}
+.cont-input {
+  height: 28px;
+  border: solid 1px #dbdbdb;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  padding: 5px;
+}
+.cont-input input {
+  border: 0;
+  outline: none;
+  background: #fafafa;
+}
+.iconos svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.iconos .small-logo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header {
+  position: absolute;
+  width: 645px;
+  height: 166px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.perfilContainer {
+  width: 100%;
+  height: 100%;
+}
+.imagenWendy {
+  width: 166px;
+  height: 166px;
+}
+.NumerosNombrePerfil {
+  position: absolute;
+  width: 432px;
+  height: 114px;
+  margin-left: 212px;
+  top: 26px;
+}
+.Nombre {
+  font-size: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+.container1 {
+  width: 100%;
+  height: 38px;
+}
+.enviar {
+  width: 145px;
+  height: 38px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  position: absolute;
+  top: 0px;
+  margin-left: 284px;
+}
+.EnviarMensaje {
+  position: absolute;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #000;
+  top: 5px;
+  margin-left: 17px;
+}
+.seguidoresNumero {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.uno,
+.dos,
+.tres {
+  display: flex;
+  flex-direction: row;
+}
+.negrita {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.blanquita {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+.descripcionDelPerfil {
+  width: 100%;
+  height: 38px;
+}
+.descripcion {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+  font-weight: normal;
+}
+.linea {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 966px;
+  height: 1px;
+  border: #000 1px solid;
+  opacity: 0.1;
+}
+.menuContenido {
+  width: 966px;
+  height: 19px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #000;
+  opacity: 0.5;
+}
+.postss {
+  width: 967px;
+  height: 1978px;
+  position: absolute;
+  margin-top: 81px;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: repeat(5, auto);
+  /* gaf: 2%; */
+  gap: 2%;
+}
+.imagePostss {
+  width: 293px;
+  height: 293px;
+  cursor: pointer;
+}
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+}
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+.modal {
+  width: 917px;
+  height: 579px;
+  background-color: aqua;
+}
+.close {
+  position: absolute;
+  top: 60px;
+  right: 140px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
